@@ -12,15 +12,9 @@ public class Dice {
         this.numberOfDice = numOfDice;
     }
 
-    public void setNumberOfDice(Integer numberOfDice) {
+    public void setNumberOfDice(Integer numberOfDice) { this.numberOfDice = numberOfDice; }
 
-        this.numberOfDice = numberOfDice;
-    }
-
-    public Integer getNumberOfDice() {
-
-        return numberOfDice;
-    }
+    public Integer getNumberOfDice() { return numberOfDice; }
 
     public Integer rollDice() {
         Random roll = new Random();
