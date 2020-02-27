@@ -8,7 +8,6 @@ public class Simulation {
     private Bins bins;
     private Dice dice;
 
-
     public Simulation(Integer numberOfDies, Integer numberOfTosses) {
         this.numberOfTosses = numberOfTosses;
         this.maxBin = numberOfDies * 6;

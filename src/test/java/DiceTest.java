@@ -1,9 +1,3 @@
-//import static org.junit.jupiter.api.Assertions.*;
-//
-//class DiceTest {
-//
-//}
-
 import org.junit.Assert;
 import org.junit.Test;
 
